@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.pedroPathing.OpModes.Testing_OpModes.examples;
+package org.firstinspires.ftc.teamcode.pedroPathing.OpModes.Autonomous_OpModes;
 
 import com.pedropathing.follower.Follower;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
@@ -14,7 +14,7 @@ import PedroJSON.main.PathLoader;
 @Autonomous(name = "Test: JSON Auto")
 public class Test_JSONAuto extends OpMode {
 
-    File routine = new File("TeamCode\\src\\main\\java\\org\\firstinspires\\ftc\\teamcode\\pedroPathing\\OpModes\\Data\\");
+    File routine = new File("TeamCode\\src\\main\\java\\org\\firstinspires\\ftc\\teamcode\\pedroPathing\\OpModes\\Data\\2ft_Square.json");
     Follower follower;
     PathLoader pathLoader;
     Callbacks callbacks;
