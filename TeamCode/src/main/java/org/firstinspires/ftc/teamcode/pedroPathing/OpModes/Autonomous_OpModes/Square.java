@@ -12,7 +12,7 @@ import java.io.File;
 import PedroJSON.main.PathLoader;
 
 @Autonomous(name = "Test: JSON Auto")
-public class Test_JSONAuto extends OpMode {
+public class Square extends OpMode {
 
     File routine = new File("TeamCode\\src\\main\\java\\org\\firstinspires\\ftc\\teamcode\\pedroPathing\\OpModes\\Data\\2ft_Square.json");
     Follower follower;

@@ -1,63 +1,23 @@
 {
   "pathChains": [
     {
-      "id": 1754345919300.9006,
+      "id": null,
       "paths": [
         {
           "id": 0,
           "type": "LINEAR",
           "start": {
             "x": 12,
-            "y": 132
+            "y": 12
           },
           "end": {
             "x": 12,
-            "y": 108
+            "y": 36
           },
           "control1": null,
           "control2": null,
           "interpolation": {
-            "type": "LINEAR",
-            "heading1": 0,
-            "heading2": 0
-          },
-          "callbacks": []
-        },
-        {
-          "id": 1,
-          "type": "LINEAR",
-          "start": {
-            "x": 12,
-            "y": 108
-          },
-          "end": {
-            "x": 36,
-            "y": 108
-          },
-          "control1": null,
-          "control2": null,
-          "interpolation": {
-            "type": "LINEAR",
-            "heading1": 0,
-            "heading2": 0
-          },
-          "callbacks": []
-        },
-        {
-          "id": 2,
-          "type": "LINEAR",
-          "start": {
-            "x": 36,
-            "y": 108
-          },
-          "end": {
-            "x": 36,
-            "y": 132
-          },
-          "control1": null,
-          "control2": null,
-          "interpolation": {
-            "type": "LINEAR",
+            "type": "TANGENTIAL",
             "heading1": 0,
             "heading2": 0
           },
@@ -66,23 +26,73 @@
       ]
     },
     {
-      "id": 1754345924970.3604,
+      "id": null,
+      "paths": [
+        {
+          "id": 1,
+          "type": "LINEAR",
+          "start": {
+            "x": 12,
+            "y": 36
+          },
+          "end": {
+            "x": 36,
+            "y": 36
+          },
+          "control1": null,
+          "control2": null,
+          "interpolation": {
+            "type": "TANGENTIAL",
+            "heading1": 0,
+            "heading2": 0
+          },
+          "callbacks": []
+        }
+      ]
+    },
+    {
+      "id": null,
+      "paths": [
+        {
+          "id": 2,
+          "type": "LINEAR",
+          "start": {
+            "x": 36,
+            "y": 36
+          },
+          "end": {
+            "x": 36,
+            "y": 12
+          },
+          "control1": null,
+          "control2": null,
+          "interpolation": {
+            "type": "TANGENTIAL",
+            "heading1": 0,
+            "heading2": 0
+          },
+          "callbacks": []
+        }
+      ]
+    },
+    {
+      "id": null,
       "paths": [
         {
           "id": 3,
           "type": "LINEAR",
           "start": {
             "x": 36,
-            "y": 132
+            "y": 12
           },
           "end": {
             "x": 12,
-            "y": 132
+            "y": 12
           },
           "control1": null,
           "control2": null,
           "interpolation": {
-            "type": "LINEAR",
+            "type": "TANGENTIAL",
             "heading1": 0,
             "heading2": 0
           },
@@ -97,11 +107,11 @@
       "points": [
         {
           "x": 12,
-          "y": 132
+          "y": 12
         },
         {
           "x": 12,
-          "y": 108
+          "y": 36
         }
       ],
       "color": "#007bff",
@@ -110,19 +120,18 @@
       "actions": [],
       "startHeading": 0,
       "endHeading": 0,
-      "headingInterpolation": "LINEAR",
-      "groupId": 1754345919300.9006
+      "headingInterpolation": "TANGENTIAL"
     },
     {
       "type": "line",
       "points": [
         {
           "x": 12,
-          "y": 108
+          "y": 36
         },
         {
           "x": 36,
-          "y": 108
+          "y": 36
         }
       ],
       "color": "#007bff",
@@ -131,19 +140,18 @@
       "actions": [],
       "startHeading": 0,
       "endHeading": 0,
-      "headingInterpolation": "LINEAR",
-      "groupId": 1754345919300.9006
+      "headingInterpolation": "TANGENTIAL"
     },
     {
       "type": "line",
       "points": [
         {
           "x": 36,
-          "y": 108
+          "y": 36
         },
         {
           "x": 36,
-          "y": 132
+          "y": 12
         }
       ],
       "color": "#007bff",
@@ -152,19 +160,18 @@
       "actions": [],
       "startHeading": 0,
       "endHeading": 0,
-      "headingInterpolation": "LINEAR",
-      "groupId": 1754345919300.9006
+      "headingInterpolation": "TANGENTIAL"
     },
     {
       "type": "line",
       "points": [
         {
           "x": 36,
-          "y": 132
+          "y": 12
         },
         {
           "x": 12,
-          "y": 132
+          "y": 12
         }
       ],
       "color": "#007bff",
@@ -173,32 +180,8 @@
       "actions": [],
       "startHeading": 0,
       "endHeading": 0,
-      "headingInterpolation": "LINEAR",
-      "groupId": 1754345924970.3604
+      "headingInterpolation": "TANGENTIAL"
     }
   ],
-  "groups": [
-    {
-      "id": 1754345919300.9006,
-      "name": "Group 1",
-      "curves": [
-        0,
-        1,
-        2
-      ],
-      "color": "#6f42c1",
-      "visible": true,
-      "collapsed": true
-    },
-    {
-      "id": 1754345924970.3604,
-      "name": "Group 2",
-      "curves": [
-        3
-      ],
-      "color": "#fd7e14",
-      "visible": true,
-      "collapsed": true
-    }
-  ]
+  "groups": []
 }

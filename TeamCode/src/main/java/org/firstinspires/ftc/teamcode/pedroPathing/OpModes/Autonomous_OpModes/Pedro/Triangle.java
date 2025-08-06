@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.pedroPathing.OpModes.Autonomous_OpModes;
+package org.firstinspires.ftc.teamcode.pedroPathing.OpModes.Autonomous_OpModes.Pedro;
 
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.telemetry.MultipleTelemetry;
